@@ -15,6 +15,7 @@ a, p, #text{
 }
 .name{
     background-color: #4aaaa5;
+    text-align: center;
 }
 
 .name h1{
