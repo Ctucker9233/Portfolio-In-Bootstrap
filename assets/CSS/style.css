@@ -10,7 +10,8 @@ a, p, #text{
 
 /* Header elements*/
 .col-md-12 .header{
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .name{
     padding: 0;
@@ -120,7 +121,7 @@ a, p, #text{
 }
 
 .gallery-image img{
-    width: 300px;
+    width: 200px;
     height: 200px;
 }
 
