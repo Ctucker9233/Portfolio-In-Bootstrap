@@ -31,22 +31,15 @@ a, p, #text{
 
 /* wrapper style*/
 .wrapper{
-    margin: auto;
     width: 70%;
-    display: flex;
-}
-
-.top{
-    justify-content: space-between;
-}
-
-.main{
+    background-color: white;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    background-color: #ffffff;
-    top: 20px;
+    border: 1px #cccccc solid;
+}
+
+.wrapper > .row{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* about me page style*/
@@ -56,20 +49,33 @@ a, p, #text{
     border-top: 2px #cccccc solid;
 }
 
+.content > .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .title{
-    flex-grow: 1;
     padding-bottom: 10px;
     border-bottom: 2px #cccccc solid;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.about{
+    padding:0;
 }
 
 .description{
-    display: flex;
-    padding-top: 20px;
     line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
 }
 
-.description-image{
-    margin: 0 20px 20px 0;
+.description-text{
+    padding-left: 20px;
 }
 
 /*Contact Page Styles*/
