@@ -1,37 +1,29 @@
-
-body{
-    display: flex;
-    flex-direction: column;
-}
-
 /* text CSS */
 h1, h2, h3, h4, h5, h6{
     color: #4aaaa5;
 }
 
-a, p{
+a, p, #text{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
 /* Header elements*/
-header{
-    background-color: #ffffff;
-    width: 100%;
+.col-md-12 .header{
+    padding: 0;
 }
-
 .name{
-    justify-self: flex-start;
+    padding: 0;
+    background-color: #4aaaa5;
 }
 
 .name h1{
     color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header-nav{
-    margin:0;
+    padding: 0;
     justify-self: flex-end;
     align-self: center;
 }
