@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 </head>
 <!--This is where all the web content lives-->
+
 <body>
     <!--This is the header section-->
-    <header>
-        <div class="wrapper top">
-            <!--This the name div-->
-            <div class="name">
-                <h1>Courtney Tucker</h1>
-            </div>
-            <!--This is the header navigation-->
-            <div class="header-nav">
-                <nav>
-                    <a href="index.html">About Me</a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a>
-                </nav>
+    <div class="container">
+        <div class="row">
+            <!--this is a column that is the full width of the screen-->
+            <div class="col-md-12 header">
+                <div class="row">
+                    <!--This the name div-->
+                    <div class="col-md-4 name">
+                        <h1>Courtney Tucker</h1>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <!--This is the header navigation-->
+                    <div class="col-md-4 header-nav">
+                        <nav class="nav">
+                            <a class="nav-link" href="index.html">About Me</a> |
+                            <a class="nav-link" href="portfolio.html">Portfolio</a> |
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+    </div>
     <!--This is the main content area-->
     <div class="content">
         <div class="wrapper">
@@ -49,11 +58,18 @@
                         <input type="submit" class="submit" value="Submit">
                     </form>
                 </div>
-            </section>  
-        </div> 
+            </section>
+        </div>
     </div>
-    <footer class="footer">
-        <p>Copyright 2019</p>
-    </footer>     
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
