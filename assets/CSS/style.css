@@ -118,11 +118,11 @@ a, p, #text{
     background-color: #4aaaa5;
     padding: 10px;
     text-align: center;
-    margin-right: 20px;
 }
 
 .card-title{
     color: white;
+    margin-bottom: 0;
 }
 
 /* footer style*/
