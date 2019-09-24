@@ -47,13 +47,13 @@ a, p, #text{
     background: url(../images/cork-wallet.png) repeat;
     border-bottom: 4px #4aaaa5 solid;
     border-top: 2px #cccccc solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content > .container{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .title{
@@ -106,21 +106,23 @@ a, p, #text{
 }
 
 /*Portfolio page styles*/
-.gallery-image h4{
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-body{
     position: absolute;
     z-index: 2;
-    bottom: 15px;
-    width: 280px;
+    bottom: 20px;
+    width: 100%;
     background-color: #4aaaa5;
-    color: white;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
+    margin-right: 20px;
 }
 
-.gallery-image img{
-    margin-top: 20px;
-    width: 280px;
-    height: 200px;
+.card-title{
+    color: white;
 }
 
 /* footer style*/
@@ -149,10 +151,9 @@ a, p, #text{
 }
 
 @media screen and (max-width: 640px){
-    .content > .container{
-        padding: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+    .content{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .nav{
